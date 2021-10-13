@@ -7,8 +7,8 @@ use warnings;
 use Config;
 use Readonly;
 
-Readonly::Array our @EXPORT_OK => qw(check_fork);
-Readonly::Scalar our $ERROR_MESSAGE => '';
+our $ERROR_MESSAGE;
+Readonly::Array our @EXPORT_OK => qw(check_fork $ERROR_MESSAGE);
 
 our $VERSION = 0.01;
 
