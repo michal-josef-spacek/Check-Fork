@@ -13,7 +13,7 @@ Readonly::Array our @EXPORT_OK => qw(check_fork $ERROR_MESSAGE);
 our $VERSION = 0.01;
 
 sub check_fork {
-	if (! $Config{d_fork}) {
+	if (! $Config{'d_fork'}) {
 		$ERROR_MESSAGE = 'No fork() routine available.';
 		return 0;
 	}
@@ -23,7 +23,7 @@ sub check_fork {
 			$ERROR_MESSAGE = "$^O: No interpreter-based threading implementation";
 			return 0;
 		}
-		if ($Config{ccflags} !~ /-DPERL_IMPLICIT_SYS/) {
+		if ($Config{'ccflags'} !~ /-DPERL_IMPLICIT_SYS/) {
 			$ERROR_MESSAGE = "$^O: No PERL_IMPLICIT_SYS ccflags set.";
 			return 0;
 		}
