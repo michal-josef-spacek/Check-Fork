@@ -16,6 +16,8 @@ sub check_fork {
 
 	if ($config_hr->{'d_fork'}) {
 		return 1;
+	} elsif ($config_hr->{'d_pseudofork'}) {
+		return 1;
 	} elsif ($os eq 'MSWin32' || $os eq 'NetWare') {
 		if (! $config_hr->{'useithreads'}) {
 			$ERROR_MESSAGE = "$os: No interpreter-based threading implementation.";
