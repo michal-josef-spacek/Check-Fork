@@ -12,5 +12,5 @@ my $test_config = {
 };
 my $test_os = 'linux';
 my $ret = check_fork($test_config, $test_os);
-is($ret, 0, "Test not forking on linux.");
+is($ret, 0, 'Test not forking on linux.');
 is($ERROR_MESSAGE, 'No fork() routine available.', 'Test error message.');
