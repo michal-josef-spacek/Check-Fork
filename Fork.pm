@@ -20,7 +20,7 @@ sub check_fork {
 
 	if (($^O eq 'MSWin32' || $^O eq 'NetWare')) {
 		if (! $Config{'useithreads'}) {
-			$ERROR_MESSAGE = "$^O: No interpreter-based threading implementation";
+			$ERROR_MESSAGE = "$^O: No interpreter-based threading implementation.";
 			return 0;
 		}
 		if ($Config{'ccflags'} !~ /-DPERL_IMPLICIT_SYS/) {
