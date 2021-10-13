@@ -13,6 +13,10 @@ Readonly::Array our @EXPORT_OK => qw(check_fork $ERROR_MESSAGE);
 our $VERSION = 0.01;
 
 sub check_fork {
+	my ($config_hr, $os) = @_;
+
+	$config_hr ||= \%Config;
+	$os ||= $^O;
 
 	if ($config_hr->{'d_fork'}) {
 		return 1;

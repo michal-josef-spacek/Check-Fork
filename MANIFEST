@@ -19,5 +19,7 @@ META.yml
 README
 t/Check-Fork/01-use.t
 t/Check-Fork/02-version.t
+t/Check-Fork/03-check_fork-true.t
+t/Check-Fork/04-check_fork-false.t
 xt/Check-Fork/01-pod_coverage.t
 xt/Check-Fork/02-pod.t
