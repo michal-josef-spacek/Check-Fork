@@ -21,5 +21,6 @@ t/Check-Fork/01-use.t
 t/Check-Fork/02-version.t
 t/Check-Fork/03-check_fork-fake-true.t
 t/Check-Fork/04-check_fork-fake-false.t
+t/Check-Fork/05-check_fork.t
 xt/Check-Fork/01-pod_coverage.t
 xt/Check-Fork/02-pod.t
