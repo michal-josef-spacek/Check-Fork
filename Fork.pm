@@ -52,7 +52,11 @@ Check::Fork - Check fork functionality.
 
 =head1 DESCRIPTION
 
-TODO
+There is need of check for fork functionality in tests.
+Actually we have many duplicated and not same check code in distributions. Sic!
+
+Intent of this module is create common code for check and test all behaviours.
+Extra thing is error message which describe issue.
 
 =head1 SYNOPSIS
 
