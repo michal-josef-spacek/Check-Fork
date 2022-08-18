@@ -87,6 +87,8 @@ Returns 0/1.
 
 =head1 EXAMPLE
 
+=for comment filename=check_fork.pl
+
  use strict;
  use warnings;
 
