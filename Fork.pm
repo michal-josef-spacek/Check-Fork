@@ -50,6 +50,13 @@ __END__
 
 Check::Fork - Check fork functionality.
 
+=head1 SYNOPSIS
+
+ use Check::Fork qw(check_fork $ERROR_MESSAGE);
+
+ my $ret = check_fork();
+ print $ERROR_MESSAGE."\n";
+
 =head1 DESCRIPTION
 
 There is need of check for fork functionality in tests.
@@ -57,13 +64,6 @@ Actually we have many duplicated and not same check code in distributions. Sic!
 
 Intent of this module is create common code for check and test all behaviours.
 Extra thing is error message which describe issue.
-
-=head1 SYNOPSIS
-
- use Check::Fork qw(check_fork $ERROR_MESSAGE);
-
- my $ret = check_fork();
- print $ERROR_MESSAGE."\n";
 
 =head1 SUBROUTINES
 
