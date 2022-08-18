@@ -30,6 +30,10 @@ $ret = check_fork($test_config, $test_os);
 is($ret, 1, 'Test threading on Windows.');
 
 # Test.
+$test_config = {
+	'ccflags' => '-DPERL_IMPLICIT_SYS',
+	'useithreads' => 'define',
+};
 $test_os = 'NetWare';
 $ret = check_fork($test_config, $test_os);
 is($ret, 1, 'Test threading on NetWare.');
