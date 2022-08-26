@@ -1,4 +1,5 @@
 0.02
+ - Add Check::Fork::HardcodedUsage doc.
  - Add test for failing NetWare in fake test.
  - Improve doc for testing variables.
  - Fix test requires.

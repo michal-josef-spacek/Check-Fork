@@ -1,6 +1,5 @@
 TODO
 ====
-3. Add doc section or extra doc page with real examples from Perl distributions.
 4. Improve real test
 5. check for pseudofork?
 6.
@@ -13,3 +12,6 @@ OK [20211013] skim
 
 1. Add description to doc.
 OK [20211014] skim
+
+3. Add doc section or extra doc page with real examples from Perl distributions.
+OK [20220826] skim
