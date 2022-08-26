@@ -2,7 +2,9 @@ TODO
 ====
 4. Improve real test
 5. check for pseudofork?
-6.
+6. Improve Check::Fork::HardcodedUsage
+7. Add Check::Pipe to SEE ALSO.
+8.
 
 Applied
 =======
