@@ -4,7 +4,9 @@ TODO
 5. check for pseudofork?
 6. Improve Check::Fork::HardcodedUsage
 7. Add Check::Pipe to SEE ALSO.
-8.
+8. Add example to doc for test of fork and socket functionality.
+   From Check::Socket.
+9.
 
 Applied
 =======
