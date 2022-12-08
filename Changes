@@ -1,4 +1,5 @@
 0.05
+ - Add is_with_diag() to test.
 
 0.04 2022-12-08T00:12:06+01:00
  - Add diag output to real test.
