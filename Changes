@@ -1,5 +1,6 @@
 0.05
  - Add is_with_diag() to test.
+ - Update Module::Install to 1.21 version.
 
 0.04 2022-12-08T00:12:06+01:00
  - Add diag output to real test.
