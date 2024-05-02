@@ -176,6 +176,14 @@ L<Readonly>.
 
 Check socket functionality.
 
+=item L<Test2::Require::Fork>
+
+Skip a test file unless the system supports forking
+
+=item L<Test2::Require::RealFork>
+
+Skip a test file unless the system supports true forking
+
 =back
 
 =head1 REPOSITORY

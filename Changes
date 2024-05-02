@@ -1,5 +1,6 @@
 0.05
  - Add is_with_diag() to test.
+ - Add related modules to SEE ALSO section in doc.
  - Update Module::Install to 1.21 version.
  - Update copyright years.
 
